@@ -15,6 +15,8 @@ import {
   GithubSvg,
 } from "./ui";
 
+const RESUME_URL = "https://drive.google.com/file/d/1j6LaZ-Gl2sxwjGNfbEqIQJnSNvMkPVg-/view?usp=drivesdk";
+
 // ── Orbit wire canvas ─────────────────────────────────────────────
 function OrbitCanvas({ wrapRef, positions, dark }) {
   const cvRef = useRef(null);
@@ -371,6 +373,12 @@ function OrbitPanel({ dark, tv }) {
 
 // ── ProfilePanel (exported) ───────────────────────────────────────
 export default function ProfilePanel({ dark, tv, onResumeClick, goTo }) {
+
+  // Opens the Google Drive resume link in a new tab
+  const handleResumeClick = () => {
+    window.open(RESUME_URL, "_blank", "noreferrer");
+  };
+
   const S = {
     section: {
       minHeight: "100vh",
@@ -518,7 +526,7 @@ export default function ProfilePanel({ dark, tv, onResumeClick, goTo }) {
                   marginBottom: 26,
                 }}
               >
-                <PriBtn onClick={onResumeClick}>
+                <PriBtn onClick={handleResumeClick}>
                   <DownloadSvg /> Download Resume
                 </PriBtn>
                 <OutBtn tv={tv} onClick={() => goTo("projects")}>
