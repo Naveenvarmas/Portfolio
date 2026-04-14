@@ -308,7 +308,7 @@ function OrbitPanel({ dark, tv }) {
         >
           {!imgErr ? (
             <img
-              src="public/images/profile.jpeg"
+              src="public/images/profile.png"
               alt="Naveen Varma"
               style={{
                 width: "100%",

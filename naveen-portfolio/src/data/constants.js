@@ -139,7 +139,7 @@ export const PROJECTS = [
     num: '03',
     name: 'Real-Time Chat Application',
     year: '2026 · Full Stack CHAT Application',
-    desc: 'Product management app with REST APIs built using Node.js & Express.js. Modern React frontend with Zustand & React Query. Deployed on Render with full production config.',
+    desc: 'A WebSocket-powered chat application with live messaging, online presence indicators, and multi-room support.',
     tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Zustand','Socket.io','Tailwind.css','Daisy-Ui', 'REST API', 'Render'],
     img: 'https://s3-alpha.figma.com/hub/file/4556150764/93ed97e9-4722-4f2b-81d0-5ad290bd8f79-cover.png',
     imgAlt: 'MERN Product Store',
@@ -148,9 +148,26 @@ export const PROJECTS = [
       `${CDN}/express/express-original.svg`,
       `${CDN}/mongodb/mongodb-original.svg`,
     ],
-    live: 'https://mern-product-store-kiz1.onrender.com/',
-    github: 'https://github.com/Naveenvarmas/MERN-Product-Store',
+    live: 'https://real-time-chatapplication-3198.onrender.com',
+    github: 'https://github.com/Naveenvarmas/Real_Time_ChatApplication.git',
   },
+  {
+    num: '04',
+    name: 'Music Listener',
+    year: '2026 · Full Stack CHAT Application',
+    desc: 'A full-stack music streaming app with real-time playback sync, room-based listening, and a Spotify-inspired UI.',
+    tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Zustand','Socket.io','Tailwind.css','Daisy-Ui', 'REST API', 'Render'],
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6qP5qN1-WfaVapO206wnKgfHbc3PSuBErqqPOB18l&s',
+    imgAlt: 'MERN Product Store',
+    stackIcons: [
+      `${CDN}/react/react-original.svg`,
+      `${CDN}/express/express-original.svg`,
+      `${CDN}/mongodb/mongodb-original.svg`,
+    ],
+    live: 'https://realtime-spotify-clone-3xtf.onrender.com',
+    github: 'https://github.com/Naveenvarmas/Real_Time_ChatApplication.git',
+  }
+  
 ]
 
 // ── About section info & services ──
