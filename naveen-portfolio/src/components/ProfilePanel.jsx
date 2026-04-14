@@ -4,6 +4,7 @@
 // Right: Orbit system (avatar + 8 floating tech nodes with wire lines)
 import { useState, useEffect, useRef, useCallback } from "react";
 import { ORBIT_NODES, PROFILE_IMG, STATS } from "../data/constants";
+import profileImg from '../../public/images/profile.png'
 import {
   Reveal,
   SocBtn,
@@ -308,7 +309,7 @@ function OrbitPanel({ dark, tv }) {
         >
           {!imgErr ? (
             <img
-              src="public/images/profile.png"
+              src={profileImg}
               alt="Naveen Varma"
               style={{
                 width: "100%",
