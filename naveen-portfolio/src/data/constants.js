@@ -187,7 +187,7 @@ export const SERVICES = [
 
 // ── Stat boxes ──
 export const STATS = [
-  { n: '2',    l: 'Live Apps' },
+  { n: '4',    l: 'Live Apps' },
   { n: 'MERN', l: 'Stack'    },
   { n: '7.3',  l: 'CGPA'     },
   { n: '2025', l: 'Grad'     },
