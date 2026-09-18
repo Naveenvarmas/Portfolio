@@ -15,7 +15,7 @@ import {
   GithubSvg,
 } from "./ui";
 
-const RESUME_URL = "https://drive.google.com/file/d/1j6LaZ-Gl2sxwjGNfbEqIQJnSNvMkPVg-/view?usp=drivesdk";
+const RESUME_URL = "https://drive.google.com/file/d/1Uex0-euKb3kndzRgkeAAdTbgwySmMLUJ/view?usp=drivesdk";
 
 // ── Orbit wire canvas ─────────────────────────────────────────────
 function OrbitCanvas({ wrapRef, positions, dark }) {
